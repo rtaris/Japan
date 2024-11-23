@@ -1,0 +1,186 @@
+{ box-sizing: border-box; }
+header, nav, main, footer { display: block; }
+
+
+html {--aa-dark-green: hsl(197,16%,22%);--aa-highlight: hsl(32,10%,95%); --aa-brown: hsl(32,25%,40%); --aa-tan: hsl(32,25%,85%); --aa-dktan: hsl(32,25%,65%);}
+
+
+
+body
+{background-color: #98acaa; margin: 0; color: black;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+header
+{background-color: #43593f ; color: black ; font-family: 'Gill Sans', 'Gill Sans MT', sans-serif; background-image: url(Media/conservation.jpg); background-repeat: no-repeat; background-position: right; text-align: left; margin: 0; padding-right: 10px;}
+
+h1
+{line-height: 76px; height: 76px; padding-left: 10px; margin: 0;}
+
+h2
+{color: #cb7336 ; font-family: Georgia, serif;}
+
+h3 {color:  #da591e ; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+h4 {color: #f3570e ; font-family: Arial, Helvetica, sans-serif;}
+
+a
+{color: hsl(32,25%,40%);}
+
+nav  {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 24%;
+    background-color: #e5f1c3;
+    position: fixed;
+    height: 50;
+    overflow: auto;
+    font-weight: bolder; 
+    border-color: #0f110a ;
+     border-width: 4px;
+     border-style: solid;}
+
+a
+{color: #daeea4;}
+
+ a:visited 
+ {color: #485f0a;}
+
+ a:hover
+ {color:#464d32}
+
+ nav a 
+ {text-decoration: none; padding-top: 0; padding-bottom: 0; padding-left: 0.5em; padding-right: 0.5em; font-size: 1.2em;}
+
+ nav a:link 
+ {color: #3e491f;}
+
+ nav a:visited 
+ {color: #314106}
+
+ nav a:hover 
+ {color: #28330b}
+ 
+ nav ul 
+
+ {list-style-type: none; margin: 0; padding: 0; }
+
+
+
+ nav li {
+ display: block;
+ color: #000;
+ padding: 8px 16px;
+ text-decoration: none; }
+
+
+    
+
+.image {margin-left: 17%;}
+.Nimage {margin-left: 13%;}
+.Wimage {margin-left: 32%;}
+
+
+
+
+ main
+ {display: block; background-color: #e2e9cf;padding-top: 1px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px;} 
+
+ .menu-chosen
+ {background-color: #d1e597 ;}
+
+ #homehero {background-image: url(Media/home.jpg);}
+
+ #helphero {background-image: url(Media/help.jpg);}
+
+ #needhero {background-image: url(Media/nature.jpg);}
+
+ #homehero, #helphero, #needhero {height: 469px;background-attachment: fixed;background-position: center; background-repeat: no-repeat; background-size: cover;}
+ 
+ .excursion {color: #050; font-size: 1.5em; font-style: italic; font-family: Georgia, serif;}
+
+ footer {color: black; font-size: 0.90em;font-style: italic;padding: 0; background-color: hsl(197,16%,22%);}
+
+ footer a{color: rgb(60, 92, 42); text-decoration: none;}
+
+ footer a:hover {color: rgb(9, 12, 7); background-color: hsl(197,16%,22%);}
+
+ #addy {text-align: left; float: left; margin: 0; padding: 2em; font-size: large; font-weight: 200; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+ #copy {text-align: right; float: right; margin: 0; padding: 2em; font-size: large; font-weight: 200 ; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+ #desktop { display: inline;}
+
+#mobile { display: none;}
+
+a.hmbgr {background-color: hsl(197,16%,22%); color: hsl(32,10%,95%); padding: 0.95em; position: absolute; right: 0; top: 0; display: none;}
+
+a.hmbgr:hover {background-color: hsl(32,10%,95%); color: hsl(197,16%,22%);}
+
+@media only screen and (max-width: 768px) 
+
+    {h1{line-height: 51px; padding-right: 1.75em; height: 51px; margin: 0; font-size: 1.5em;}
+    
+    nav { text-align: center;}
+
+    nav a {display: block; padding: 0.2em; font-size: 1em;}
+
+    nav ul {margin: 0; padding: 0;}
+
+    nav li {display: block; text-align: center; margin: 0; padding: 0; border-bottom: 1px solid #fff;}
+
+    nav li:last-child {border-bottom: 0px;}
+
+    main {padding: 0.4em;}
+
+    #mobile { display: inline; }
+
+    a.hmbgr { display: block; }
+
+    #desktop { display: none; }
+
+     #homehero, #intertidalhero, #fossilhero { display: none; }
+ 
+  .image {width: 100%; margin:auto}
+ .Nimage {width: 100%; margin:auto}
+ .Wimage {width: 100%; margin:auto}
+    
+
+ .video{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .video iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+    }
+
+
+
+dd {margin-bottom: 1em;}
+
+dt {font-weight: bold; color: rgb(68, 145, 6); border-bottom: 2px, solid, rgb(44, 83, 8); margin-left: 1em; margin-right: 1em;}
+
+table {margin-left: auto; margin-right: auto; border-collapse: collapse;}
+
+th {padding: 7px; background-color: rgb(28, 128, 8); color: rgb(0, 0, 0);}
+
+td {padding: 5px; text-align: center; border: 2px, solid, hsl(32,25%85%);}
+
+.centerJustify {text-align: center;}
+
+tr:nth-child(even) { background-color: rgb(64, 197, 93); }
+
+table tr:last-child td { border-bottom: 0; }
+
+table tr td:first-child { border-left: 0; }
+
+table tr td:last-child { border-right: 0; }
+
+.rightJustify {text-align: right;}
