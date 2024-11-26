@@ -7,10 +7,10 @@ html {--aa-dark-green: hsl(197,16%,22%);--aa-highlight: hsl(32,10%,95%); --aa-br
 
 
 body
-{background-color: #98acaa; margin: 0; color: black;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+{background-color: #f3e5e5; margin: 0; color: black;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 header
-{background-color: #43593f ; color: black ; font-family: 'Gill Sans', 'Gill Sans MT', sans-serif; background-image: url(Media/conservation.jpg); background-repeat: no-repeat; background-position: right; text-align: left; margin: 0; padding-right: 10px;}
+{background-color: #f00909 ; color: black ; font-family: 'Gill Sans', 'Gill Sans MT', sans-serif; background-image: url(Media/conservation.jpg); background-repeat: no-repeat; background-position: right; text-align: left; margin: 0; padding-right: 10px;}
 
 h1
 {line-height: 76px; height: 76px; padding-left: 10px; margin: 0;}
