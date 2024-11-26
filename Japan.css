@@ -2,7 +2,7 @@
 header, nav, main, footer { display: block; }
 
 
-html {--aa-dark-green: hsl(197,16%,22%);--aa-highlight: hsl(32,10%,95%); --aa-brown: hsl(32,25%,40%); --aa-tan: hsl(32,25%,85%); --aa-dktan: hsl(32,25%,65%);}
+html {--aa-dark-green: hsl(0, 16%, 22%);--aa-highlight: hsl(20, 12%, 95%); --aa-brown: hsl(0, 25%, 40%); --aa-tan: hsl(32,25%,85%); --aa-dktan: hsl(0, 25%, 65%);}
 
 
 
@@ -16,14 +16,14 @@ h1
 {line-height: 76px; height: 76px; padding-left: 10px; margin: 0;}
 
 h2
-{color: #cb7336 ; font-family: Georgia, serif;}
+{color: #000000 ; font-family: Georgia, serif;}
 
-h3 {color:  #da591e ; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+h3 {color:  #000000 ; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
-h4 {color: #f3570e ; font-family: Arial, Helvetica, sans-serif;}
+h4 {color: #000000 ; font-family: Arial, Helvetica, sans-serif;}
 
 a
-{color: hsl(32,25%,40%);}
+{color: hsl(309, 25%, 40%);}
 
 nav  {list-style-type: none;
     margin: 0;
@@ -34,30 +34,30 @@ nav  {list-style-type: none;
     height: 50;
     overflow: auto;
     font-weight: bolder; 
-    border-color: #0f110a ;
+    border-color: #110a0f ;
      border-width: 4px;
      border-style: solid;}
 
 a
-{color: #daeea4;}
+{color: #eea4e3;}
 
  a:visited 
- {color: #485f0a;}
+ {color: #5f0a4a;}
 
  a:hover
- {color:#464d32}
+ {color:#4d3245}
 
  nav a 
  {text-decoration: none; padding-top: 0; padding-bottom: 0; padding-left: 0.5em; padding-right: 0.5em; font-size: 1.2em;}
 
  nav a:link 
- {color: #3e491f;}
+ {color: #fc1baa;}
 
  nav a:visited 
- {color: #314106}
+ {color: #f521a7}
 
  nav a:hover 
- {color: #28330b}
+ {color: #e0219a}
  
  nav ul 
 
@@ -82,12 +82,12 @@ a
 
 
  main
- {display: block; background-color: #e2e9cf;padding-top: 1px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px;} 
+ {display: block; background-color: #f08995;padding-top: 1px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px;} 
 
  .menu-chosen
- {background-color: #d1e597 ;}
+ {background-color: #f84ab8 ;}
 
- #homehero {background-image: url(Media/home.jpg);}
+ #homehero {background-image: url(Media/Flag.jpg);}
 
  #helphero {background-image: url(Media/help.jpg);}
 
@@ -95,11 +95,11 @@ a
 
  #homehero, #helphero, #needhero {height: 469px;background-attachment: fixed;background-position: center; background-repeat: no-repeat; background-size: cover;}
  
- .excursion {color: #050; font-size: 1.5em; font-style: italic; font-family: Georgia, serif;}
+ .excursion {color: rgb(201, 47, 47); font-size: 1.5em; font-style: italic; font-family: Georgia, serif;}
 
  footer {color: black; font-size: 0.90em;font-style: italic;padding: 0; background-color: hsl(197,16%,22%);}
 
- footer a{color: rgb(60, 92, 42); text-decoration: none;}
+ footer a{color: rgb(182, 64, 64); text-decoration: none;}
 
  footer a:hover {color: rgb(9, 12, 7); background-color: hsl(197,16%,22%);}
 
